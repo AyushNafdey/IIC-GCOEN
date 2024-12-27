@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Focus_Function from './components/Focus_Function';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header/>
       <Introduction/>
       <Focus_Function/>
+      <Footer/>
     </>
   )
 }
