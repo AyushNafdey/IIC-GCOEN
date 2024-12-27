@@ -20,7 +20,7 @@ const Navbar = () => {
                         </div>
 
                         <div className='flex md: gap-x-6'>
-                            <button type='button' className='max-sm:hidden bg-black rounded-lg text-lg text-white px-5 py-3 hover:bg-gray-800 focus:ring-4 focus:ring-white-20'>Home</button>
+                            <button type='button' className='max-sm:hidden bg-black rounded-lg text-lg text-white px-5 py-3 ring-4 ring-slate-600 disabled'>Home</button>
                             {/* <button type='button' className='max-sm:hidden rounded-lg text-lg text-white px-5 py-3 hover:bg-gray-800 focus:ring-4 focus:ring-white-20'>About Us</button> */}
                             <button type='button' className='max-sm:hidden rounded-lg text-lg text-white px-5 py-3 hover:bg-gray-800 focus:ring-4 focus:ring-white-20'>Activities</button>
                             <button type='button' className='max-sm:hidden rounded-lg text-lg text-white px-5 py-3 hover:bg-gray-800 focus:ring-4 focus:ring-white-20'>Contact Us</button>
