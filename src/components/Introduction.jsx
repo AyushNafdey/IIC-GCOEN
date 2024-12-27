@@ -5,12 +5,12 @@ import gcoen_mobile from '../assets/images/gcoen-mobile.png'
 const Hero = () => {
     return (
         <>
-            <div className='w-full h-auto rounded-md px-6 max-sm:px-2 max-sm:h-auto max-sm:hidden'>
+            <div className='w-full h-auto rounded-md px-6 max-sm:px-2 max-sm:h-auto max-sm:hidden md:hidden'>
                 <img src={gcoen}></img>
             </div>
             <div className='lg:hidden px-5'>
                 <img src={gcoen_mobile} className='md:w-full md:px-4 pb-5'/>
-                <div className='text-sm'>
+                <div className='text-sm md:text-xl'>
                     <p>Institution's Innovation Council (IIC), at the Government College of Engineering, Nagpur, known as IIC GCOEN, aims to foster innovation and entrepreneurship among students and faculty. Established under the guidance of the Ministry of Education's Innovation Cell (MIC) and in line with the national agenda for promoting entrepreneurial thinking, IIC GCOEN provides a structured platform to develop ideas, create impactful projects, and encourage start-up culture within the institution.</p>
                 </div>
             </div>
