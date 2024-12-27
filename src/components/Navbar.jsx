@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
                     <div className='flex h-20 justify-between items-center'>
                         <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-between z-0'>
-                            <a href="https://iic.mic.gov.in/" className='flex flex-shrink-0 items-center mr-4'>
+                            <a href="https://iic-gcoen.vercel.app/" className='flex flex-shrink-0 items-center mr-4'>
                                 <div className='w-[120px]'>
                                     <img src={logo} className='-rotate-90' />
                                 </div>
