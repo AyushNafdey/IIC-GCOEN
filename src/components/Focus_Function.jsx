@@ -1,12 +1,18 @@
 import React from 'react'
 import focus from '../assets/images/focus-iic.jpg'
 import iic_func from '../assets/images/iic-function-1.jpg'
+import boy_peeking from '../assets/images/boy_peeking.png'
+import boy_thinking from '../assets/images/boy_thinking.jpeg'
+
 
 
 function Focus_Function() {
   return (
     <>
       <div className="flex flex-col md:flex-row gap-x-8 w-full py-4 max-md:gap-y-7 max-sm:gap-y-7 justify-center items-stretch">
+        <img
+          src={boy_thinking} 
+          className='absolute w-70 h-44 -z-10 left-3 top-[1090px] max-md:hidden max-sm:hidden '/>
         {/* Card 1 */}
         <div className="w-full max-w-[320px] h-[600px] md:h-auto mx-auto md:mx-0 md:w-[385px] rounded-3xl p-2 bg-gradient-to-l from-blue-700 via-red-600 to-yellow-500">
           <div className="h-full rounded-2xl bg-white overflow-hidden">
@@ -31,7 +37,7 @@ function Focus_Function() {
         </div>
 
         {/* Card 2 */}
-        <div className="w-full max-w-[320px] h-[600px] md:h-auto mx-auto md:mx-0 md:w-[385px] rounded-3xl p-2 bg-gradient-to-l from-blue-700 via-red-600 to-yellow-500">
+        <div className="relative shadow-lg w-full max-w-[320px] h-[600px] md:h-auto mx-auto md:mx-0 md:w-[385px] rounded-3xl p-2 bg-gradient-to-l from-blue-700 via-red-600 to-yellow-500">
           <div className="h-full rounded-2xl bg-white overflow-hidden">
             <div className="h-48 md:h-56 overflow-hidden">
               <img
@@ -52,6 +58,12 @@ function Focus_Function() {
               </ul>
             </div>
           </div>
+        </div>
+        <div>
+          {/* <!-- Boy Image --> */}
+          <img src={boy_peeking} alt="Boy" className='absolute right-60 top-[1050px] max-md:hidden max-sm:hidden ' />
+          {/* className="absolute -top-4 -right-5 w-12 rotate-[-15deg] z-10"/> */}
+          {/* <!-- Content --> */}
         </div>
       </div>
     </>
