@@ -5,7 +5,7 @@ import gcoen_mobile from '../assets/images/gcoen-mobile.png'
 const Hero = () => {
     return (
         <>
-            <div className='w-full h-auto rounded-md px-6 max-sm:px-2 max-sm:h-auto max-sm:hidden md:hidden'>
+            <div className='w-full h-auto rounded-md px-6 max-sm:hidden max-md:hidden'>
                 <img src={gcoen}></img>
             </div>
             <div className='lg:hidden px-5'>
