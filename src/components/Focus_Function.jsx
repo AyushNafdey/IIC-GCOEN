@@ -1,73 +1,81 @@
 import React from 'react'
-import focus from '../assets/images/focus-iic.jpg'
-import iic_func from '../assets/images/iic-function-1.jpg'
-import boy_peeking from '../assets/images/boy_peeking.png'
-import boy_thinking from '../assets/images/boy_thinking.jpeg'
+
 
 
 
 function Focus_Function() {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-x-8 w-full py-4 max-md:gap-y-7 max-sm:gap-y-7 justify-center items-stretch">
-        <img
-          src={boy_thinking} 
-          className='absolute w-70 h-44 -z-10 left-3 top-[1090px] max-md:hidden max-sm:hidden '/>
-        {/* Card 1 */}
-        <div className="w-full max-w-[320px] h-[600px] md:h-auto mx-auto md:mx-0 md:w-[385px] rounded-3xl p-2 bg-gradient-to-l from-blue-700 via-red-600 to-yellow-500">
-          <div className="h-full rounded-2xl bg-white overflow-hidden">
-            <div className="h-48 md:h-56 overflow-hidden">
-              <img
-                className="w-full h-full object-cover rounded-t-2xl"
-                src={iic_func}
-                alt="Major Focus"
-              />
-            </div>
-            <div className="p-4 md:p-6">
-              <h2 className="font-bold text-xl md:text-2xl mb-3 md:mb-4">Major Focus</h2>
-              <ul className="list-disc text-gray-700 space-y-1 md:space-y-2 pl-5 text-lg max-md:text-base">
-                <li>To create a vibrant local innovation ecosystem.</li>
-                <li>Start-up supporting mechanism in HEIs.</li>
-                <li>Prepare institute for Atal Ranking of institutions on innovation achievements framework.</li>
-                <li>Establish a functional ecosystem for scouting ideas and pre-incubation of ideas.</li>
-                <li>Develop better cognitive ability among students.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white min-h-screen flex items-center justify-center max-md:pt-4 max-md:justify-center">
+      <div className="container mx-auto px-4">
+        <div className="grid md:grid-cols-2 gap-8 relative">
+          {/* Vertical Line */}
+          <div className="hidden md:block absolute inset-y-0 left-1/2 w-0.5 bg-white"></div>
 
-        {/* Card 2 */}
-        <div className="relative shadow-lg w-full max-w-[320px] h-[600px] md:h-auto mx-auto md:mx-0 md:w-[385px] rounded-3xl p-2 bg-gradient-to-l from-blue-700 via-red-600 to-yellow-500">
-          <div className="h-full rounded-2xl bg-white overflow-hidden">
-            <div className="h-48 md:h-56 overflow-hidden">
-              <img
-                className="w-full h-full object-cover rounded-t-2xl"
-                src={focus}
-                alt="Functions of IIC"
-              />
-            </div>
-            <div className="px-4 md:px-7">
-              <h2 className="font-bold text-xl pt-6 md:text-2xl mb-3 md:mb-4">Functions Of IIC</h2>
-              <ul className="list-disc text-gray-700 space-y-1 md:space-y-2 pl-5 overflow-y-auto max-h-[420px] max-md:max-h-[300px] text-lg max-md:text-base">
-                <li>To conduct various Innovation, IPR and entrepreneurship-related activities prescribed by MIC in time bound fashion.</li>
-                <li>Identify and reward innovations and share success stories.</li>
-                <li>Organize periodic workshops/ seminars/ interactions with entrepreneurs, investors, professionals and create a mentor pool for student innovators.</li>
-                <li>Network with peers and national entrepreneurship development organizations.</li>
-                <li>Create an Institution's Innovation portal to highlight innovative projects carried out by institution's faculty and students.</li>
-                <li>Organize Hackathons, idea competition, mini-challenges etc. with the involvement of industries.</li>
-              </ul>
-            </div>
+          {/* Major Focus Section */}
+          <div className="pr-8 max-md:pl-7">
+            <h2 className="text-3xl font-bold mb-4">
+              Major Focus
+            </h2>
+            <ul className="list-disc ml-6 space-y-2 text-xl">
+              <li className="">
+                To create a vibrant local innovation ecosystem
+              </li>
+              <li className="">
+                Start-up/ entrepreneurship supporting Mechanism in HEIs.
+              </li>
+              <li className="">
+                Prepare institute for Atal Ranking of Institutions on Innovation
+                Achievements Framework (ARIIA).
+              </li>
+              <li className="">
+                Establish Function Ecosystem for Scouting Ideas and
+                Pre-incubation of Ideas.
+              </li>
+              <li className="">
+                Develop better Cognitive Ability amongst Technology Students.
+              </li>
+            </ul>
           </div>
-        </div>
-        <div>
-          {/* <!-- Boy Image --> */}
-          <img src={boy_peeking} alt="Boy" className='absolute right-60 top-[1050px] max-md:hidden max-sm:hidden ' />
-          {/* className="absolute -top-4 -right-5 w-12 rotate-[-15deg] z-10"/> */}
-          {/* <!-- Content --> */}
+
+          {/* Functions Section */}
+          <div className="pl-8">
+            <h2 className="text-3xl font-bold mb-4">
+              Functions
+            </h2>
+            <ul className="list-disc ml-6 space-y-2 text-xl max-md:pb-4">
+              <li className="">
+                To conduct various innovation and entrepreneurship-related
+                activities prescribed by Central MIC in time-bound fashion
+              </li>
+              <li className="">
+                Identify and reward innovations and share success stories
+              </li>
+              <li className="">
+                Organize periodic workshops/ seminars/ interactions with
+                entrepreneurs, investors, professionals and create a mentor pool
+                for student innovators.
+              </li>
+              <li className="">
+                Network with peers and national entrepreneurship development
+                organizations.
+              </li>
+              <li className="">
+                Create an Institution’s Innovation portal to highlight
+                innovative projects carried out by institution’s faculty and
+                students.
+              </li>
+              <li className="">
+                Organize Hackathons, idea competitions, mini-challenges, etc.
+                with the involvement of industries
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </>
-  )
+    </div>
+      </>
+      )
 }
 
-export default Focus_Function;
+      export default Focus_Function;

@@ -20,7 +20,7 @@ const Hero = () => {
                 Introduction
             </div>
             <hr className='mb-5 mx-6 border-yellow-300 border-bold border-t-4' />
-            <div className='px-7 text-xl font-normal max-sm:text-lg max-md:text-xl md:text-xl sm:text-2xl'>
+            <div className='px-7 text-xl font-normal max-sm:text-lg max-md:text-xl md:text-xl sm:text-2xl pb-7'>
                 In the year 2018, the Ministry of Education (MoE) through MoE's Innovation Cell (MIC) launched the Institution’s Innovation Council (IIC) program in collaboration with AICTE for Higher Educational Institutions (HEIs) to systematically foster the culture of innovation and start-up ecosystem in education institutions. Primarily, IICs’ role is to engage large number of faculty, students and staff in various innovation and entrepreneurship related activities such as ideation, Problem solving, Proof of Concept development, Design Thinking, IPR, project handling and management at Pre-incubation/Incubation stage, etc., so that innovation and entrepreneurship ecosystem gets established and stabilized in HEIs. The IIC model is designed to address the existing challenges/issues in HEIs such as less numbers, occasional and unplanned Innovation & Entrepreneurship (I&E) activities organised in HEIs with low involvement of top leadership, lack of coherence and absence of synergy in resource mobilization, deployment and underutilization of creative potential of youths as major barrier for vibrant I&E ecosystem to emerge from HEIs.
             </div>
 
