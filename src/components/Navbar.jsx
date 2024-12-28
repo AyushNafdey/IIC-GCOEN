@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <>
             <div className='bg-slate-950 border-b border-blue-600'>
-                <div className='lg:hidden md:flex max-md:hidden'>
+                <div className='lg:hidden md:flex'>
                     <ToggleNavbar />
                 </div>
                 <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
